@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif; /* change the default style of worsd font to sans-serif*/
+    color: #7e7c7c; /* change the default style of color to #7e7c7c*/
+    box-sizing: border-box; /* change the default box sizing to border-box*/
+    margin: 0; /* change the default margin to 0*/
+    padding: 0; /* change the default padding to 0*/
+}
+body{ /* this is the body of our website*/
+
+    background-color: #bdd0d3; /* change the default background color to #f5f5f5*/
+    display: flex;
+
+}
+.siderBar{ /* this the class name of our sidebar container in css we dot before editing className*/
+    background: white; /*change Background for Sidebar Container to white*/
+    width: 250px; /* change the width of sidebar container to 250px*/
+    min-height: 100vh; /* change the height of sidebar container to 100vh*/
+    padding: 10px; /* change the padding  of sidebar container to 10px padding is the space between the content and the border      */
+    position: relative;
+    padding-top: 60px;
+    display: none;
+    
+}
+.title{/* this the class name of our title in css we dot before editing className*/
+    font-size: 30px; /* font-size is used to Change the size of the Text Element in Our Title Container*/
+    text-align: center; /* change the alignment of the Text Element in Our Title Container to center*/
+    display: block; /* block display is used to display elements as block means other elements will be displayed on the New line*/
+    font-weight: bold; /* font-weight is used to Change the weight of the Text Element in Our Title Container to bold*/
+    background: #2fa8ee; /* change the background color of title to #f5f5f5*/
+    padding: 12px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white; 
+}
+.links.mt{  
+    margin-top: 60px;
+}
+.links .link{/* links a is used to change  <a>(link) tag in our links container*/
+    background: none; /* Change The background color of link to black*/
+    padding: 12px; /* padding is used to Change the space between the content and the border of link*/
+    display: block; /* Block Display is Used to Display Elements as Block means Other Elements Will Be Displayed on The New Line*/
+    text-decoration: none; /* text-decoration is used to change the underlining of our Texts in <a class="link"> tag in our links container*/
+    margin: 10px 0;/*the first value is for top and bottom and the second value is for left and right*/;
+    border-radius: 0px  100px 100px 0px;
+
+    
+}
+.links .link:hover{ /* hover in css is used to change the previous styles of an elements whenver you put cursor on it or Hover it */
+    background-color: #2fa8ee; /* change the background color of link to #f5f5f5 On Hover*/
+    transition: background-color 1s ; /* transition is used to change the style of our links container when you hover it*/
+    color: white; /* change the color of link to white on Hover*/
+}
+.links .link:hover .fa{
+    color: white;
+ }
+ .links .link.active{
+    background-color: #fd7979; 
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+ }
+ .links .link.active .fa{
+    color: white;
+ }
+ .main{
+    width: 100%;
+ }
+ /* this styke are for the main body content */
+ .main h3{
+    background: white;
+    padding: 8px;
+ }
+ .icon{
+    padding: 12px;
+    cursor: pointer;
+ }
