@@ -18,7 +18,7 @@ body{ /* this is the body of our website*/
     padding: 10px; /* change the padding  of sidebar container to 10px padding is the space between the content and the border      */
     position: relative;
     padding-top: 60px;
-    display: none;
+
     
 }
 .title{/* this the class name of our title in css we dot before editing className*/
@@ -44,6 +44,7 @@ body{ /* this is the body of our website*/
     text-decoration: none; /* text-decoration is used to change the underlining of our Texts in <a class="link"> tag in our links container*/
     margin: 10px 0;/*the first value is for top and bottom and the second value is for left and right*/;
     border-radius: 0px  100px 100px 0px;
+    color: #7e7c7c;
 
     
 }
@@ -75,4 +76,18 @@ body{ /* this is the body of our website*/
  .icon{
     padding: 12px;
     cursor: pointer;
+ }
+
+ /* ---------------------- Table Annimations */
+ .container{
+    animation: tableZoomed 2s linear;
+ }
+ @keyframes tableZoomed {
+    0%{
+       
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.0);
+    }
  }
